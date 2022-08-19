@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APS-G6 [TeamWork Website]</title>
+  </head>
+  <body>
+    <header id="header">
+        <a href="/"><img width="50px" src="./img/favicon.jpg" alt="Logo" /></a>
+        <h1>The First Teamwork Website By APS3-G6</h1>
+      <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./project-order.html">ProjectOrder</a></li>
+            <li><a href="./about-us.html">About Us</a></li>
+            <li><a href="./contact-us.html">Contact Us </a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <main>
+        <h2>
+            .:. Website Project Pre-order .:.
+        </h2>
+        <form action="/send-data">
+        <section>
+            <fieldset>
+                <legend>Base Info : </legend>
+                <label for="fullname">FullName:</label>
+                <input type="text" name="fullname" id="fullname" required>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+                <br><br>
+                <label for="company">Company :</label>
+                <input type="text" name="company" id="company" required>
+                <label for="phone">Phone :</label>
+                <input type="number" name="phone" id="phone" required>
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend>Select Order Type : </legend>
+                <input type="radio" name="order_type" id="order_type" value="corporate" required>corporate
+                <input type="radio" name="order_type" id="order_type" value="news" required>news
+                <input type="radio" name="order_type" id="order_type" value="automation" required>automation
+                <br><br>
+                <input type="radio" name="order_type" id="order_type" value="online-shop" required>online shop
+                <input type="radio" name="order_type" id="order_type" value="market-place" required>market place
+                <input type="radio" name="order_type" id="order_type" value="special" required>special for you!
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend>Select Features : </legend>
+                <input type="checkbox" name="special_seo" id="special_seo" value="special_seo" >Specialized SEO
+                <input type="checkbox" name="ex_ui_ux" id="ex_ui_ux" value="ex_ui_ux" >Exclusive UI/UX Design
+                <input type="checkbox" name="content_prod" id="content_prod" value="content_prod">Content Production
+                <input type="checkbox" name="google_advertise" id="google_advertise" value="google_advertise" >Advertise on Google
+                <br><br>
+                <input type="checkbox" name="email_marketing" id="email_marketing" value="email_marketing" >e-mail marketing
+                <input type="checkbox" name="ex_cms" id="ex_cms" value="ex_cms" >Exclusive CMS
+                <input type="checkbox" name="payment" id="payment" value="payment" >Payment Gateway
+                <input type="checkbox" name="digital_branding" id="digital_branding" value="digital_branding" >Digital Branding
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend>Additional Items : </legend>
+                <p>
+                    If you have a specific design in mind, upload information about it in image format here:
+                </p>
+                <input type="file" name="information" accept="jpg,png">
+                <br><br>
+                <p>
+                    Provide additional information about the project in text form :
+                </p>
+                <textarea name="description" id="description" cols="60" rows="10" placeholder="type your description here ..."></textarea>
+            </fieldset>
+        </section>
+        <br><br>
+        <section>
+            <button type="submit"> Registration of pre-order request </button>
+        </section>
+    </form>
+    </main>
+<br>
+<hr>
+    <footer>
+        <section>
+            <h4>Quick Access</h4>
+            <ul>
+                <li><a href="#header">Top</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <br>
+                <li><a href="./project-order.html">ProjectOrder</a></li>
+                <li><a href="./about-us.html">About Us</a></li>
+                <li><a href="./contact-us.html">Contact Us </a></li>
+            </ul>
+        </section>
+    <section>
+        <h4>Copyright</h4>
+        <p>This Site Designed By Team G-6 licensed under CC BY-SA <small>© 2022</small></p> 
+    </section>
+    </footer>
+  </body>
+</html>
