@@ -10,7 +10,7 @@
     <header>
       <h1>First Website <span>TeamWork</span></h1>
       <nav>
-        <a href="/"><img width="50px" src="favicon.jpg" alt="Logo" /></a
+        <a href="/"><img width="50px" src="/img/favicon.jpg" alt="Logo" /></a
         >&nbsp;&nbsp; <a href="#">Home</a>&nbsp;&nbsp;
         <a href="#">Blog</a>&nbsp;&nbsp; &nbsp;&nbsp;
         <a href="#">Blogdetail</a>&nbsp;&nbsp;
@@ -37,7 +37,7 @@
         </p>
 
         <figure>
-          <img width="400px" src="TeamWork.png" alt="teamWork" />
+          <img width="400px" src="/img/TeamWork.png" alt="teamWork" />
           <figcaption>Image Of TeamWork</figcaption>
         </figure>
       </section>
@@ -49,25 +49,25 @@
             <tr>
               <td>
                 <a href="#">
-                  <figure><img width="200px" src="icons1.png" alt="project One" />
+                  <figure><img width="200px" src="/img/icons1.png" alt="project One" />
                     <figcaption>Project One</figcaption></figure>
                 </a>
               </td>
               <td>
                 <a href="#">
-                  <figure><img width="200px" src="icons2.png" alt="project One" />
+                  <figure><img width="200px" src="/img/icons2.png" alt="project One" />
                     <figcaption>Project Two</figcaption></figure>
                 </a>
               </td>
               <td>
                 <a href="#">
-                  <figure><img width="200px" src="icons3.png" alt="project One" />
+                  <figure><img width="200px" src="/img/icons3.png" alt="project One" />
                     <figcaption>Project Three</figcaption></figure>
                 </a>
               </td>
               <td>
                 <a href="#">
-                  <figure><img width="200px" src="icons4.png" alt="project One" />
+                  <figure><img width="200px" src="/img/icons4.png" alt="project One" />
                     <figcaption>Project Four</figcaption></figure>
                 </a>
               </td>
@@ -79,14 +79,15 @@
 
       <hr />
       <section>
-        <h3>Projects We Have Done !!!</h3>
-        <table border="1px">
+        <h3>Projects Plans</h3>
+        <table border="1px" width="50%">
           <thead>
-            <tr>
-              <th>Project Name</th>
+            <tr ba>
+              <th >Project Name</th>
               <th>Date Begin</th>
               <th>Date End</th>
               <th>Subject</th>
+              <th> Link</th>
             </tr>
           </thead>
           <tbody>
@@ -94,19 +95,22 @@
               <td>Project 1</td>
               <td>2022-01-01</td>
               <td>2022-02-01</td>
-              <td>News</td>
+              <td>News Project</td>
+              <td><a href="#"><img width="50px" src="/img/news.png" alt="news Project"></a></td>
             </tr>
             <tr>
               <td>Project 2</td>
               <td>2022-02-01</td>
               <td>2022-04-01</td>
               <td>Online Shop</td>
+              <td><a href="#"><img width="50px" src="/img/shop.png" alt="news Project"></a></td>
             </tr>
             <tr>
-              <td>Project 32</td>
+              <td>Project 3</td>
               <td>2022-04-01</td>
               <td>2022-06-01</td>
               <td>Corporate</td>
+              <td><a href="#"><img width="50px" src="/img/handshake.png" alt="news Project"></a></td>
             </tr>
           </tbody>
         </table>
@@ -116,18 +120,26 @@
       <section>
         <h4>Register Account</h4>
         <form action="">
-          <label for="fullName">Please Insert Your FullName :</label>
-          <input type="text" name="" id="fullName" required />
-          <br />
-          <br />
-          <label for="email">Please Insert Your Email</label>
-          <input type="email" name="" id="email" required />
-          <br />
-          <br />
-          <label for="password">Please Insert Your Password</label>
-          <input type="password" name="" id="password" required />
-          <br />
-          <button type="submit">Send</button>
+          <table>
+            <tr>
+              <td><label for="fullName">Please Insert Your FullName :</label></td>
+              <td><input type="text" name="" id="fullName" required /></td>
+            </tr>
+            
+          <tr>
+            <td><label for="email">Please Insert Your Email</label></td>
+            <td><input type="email" name="" id="email" required /></td>
+          </tr>
+          <tr>
+            <td><label for="password">Please Insert Your Password</label></td>
+            <td><input type="password" name="" id="password" required /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button type="submit">Send</button></td>
+          </tr>
+          </table>         
+          
+          
         </form>
       </section>
       <br /><br />
@@ -135,7 +147,9 @@
     </main>
     <footer>
       <h4>Quick Access link</h4>
-      <a href="#"> Top</a>&nbsp;&nbsp;&nbsp;<a href="/">Home</a>
+      <a href="#"> Top</a>&nbsp;&nbsp;<a href="/">Home</a>&nbsp;&nbsp;
+      <a href="/">Blog</a>&nbsp;&nbsp;<a href="/">BlogDetail</a>&nbsp;&nbsp;<a href="/">ProjectOrder</a>
+      &nbsp;&nbsp;<a href="/">Contact/About Us</a>
       <h4>Copyright</h4>
       <p>This Site Design By Team G-6 licensed under CC BY-SA.</p>
     </footer>
